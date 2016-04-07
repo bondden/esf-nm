@@ -1,0 +1,43 @@
+{
+  "name": "esf-mod",
+  "version": "0.1.0",
+  "description": "ESF Node module",
+  "main": "idx.js",
+  "scripts": {
+    "test": "tst/idx.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "esf"
+  ],
+  "author": {
+		"name":"Denis Bondarenko",
+		"email":"bond.den@gmail.com",
+		"url":"https://github.com/bondden"
+  },
+  "license": "(MIT OR Apache-2.0)",
+  "homepage": "http://esf.itms.pro",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "files": [
+    ".babelrc",
+    ".eslintrc",
+    ".editorconfig",
+    ".gitattributes",
+    ".gitignore",
+    ".npmignore",
+    "gulpfile.babel.js",
+    "lib",
+    "src",
+    "tst",
+    "README.md",
+    "LICENSE.md",
+    "CONTRIBUTORS.md"
+  ]
+} 
+ 

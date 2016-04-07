@@ -1,0 +1,42 @@
+{
+  "name": "<% name %>",
+  "version": "0.1.0",
+  "description": "<% description %>",
+  "main": "idx.js",
+  "scripts": {
+    "test": "tst/idx.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "<% repository.url %>"
+  },
+  "keywords": [
+    <%=: keywords  %>
+  ],
+  "author": {
+		"name":"Denis Bondarenko",
+		"email":"bond.den@gmail.com",
+		"url":"https://github.com/bondden"
+  },
+  "license": "(MIT OR Apache-2.0)",
+  "homepage": "<% homepage %>",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "files": [
+    ".babelrc",
+    ".eslintrc",
+    ".editorconfig",
+    ".gitattributes",
+    ".gitignore",
+    ".npmignore",
+    "gulpfile.babel.js",
+    "lib",
+    "src",
+    "tst",
+    "README.md",
+    "LICENSE.md"
+    "CONTRIBUTORS.md"
+  ]
+} 

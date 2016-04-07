@@ -1,0 +1,19 @@
+{
+  "name": "esf-nm",
+  "version": "0.1.0",
+  "description": "esf nm scf",
+  "main": "index.js",
+  "scripts": {
+    "test": "tst/index.js"
+  },
+  "keywords": [
+    "esf",
+    "scf"
+  ],
+  "author": "Denis Bondarenko <bond.den@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "is-my-json-valid": "^2.13.1"
+  }
+}
